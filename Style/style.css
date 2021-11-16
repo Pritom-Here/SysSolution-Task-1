@@ -1,0 +1,123 @@
+.img-circle {
+  object-fit: cover;
+  width: 6.2rem;
+  border-radius: 50%;
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid grey !important;
+}
+
+.border-rad-0 {
+  border-radius: 0;
+}
+
+.border-rad-top {
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+.border-rad-bottom {
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.input-transparent {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid gray;
+  border-radius: 0;
+  font-weight: 500;
+  color: #000 !important;
+}
+
+.bg-gradient {
+  background: rgb(232, 232, 232);
+  background: linear-gradient(
+    145deg,
+    rgb(245, 244, 244) 0%,
+    rgb(129, 128, 134) 100%
+  ) !important;
+}
+
+.bg-sysolution {
+  background-color: #f3a43d;
+}
+
+.bg-image {
+  background-image: url("/Files/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-green {
+  color: #162c39;
+}
+
+.fs-1-4 {
+  font-size: 1.4rem;
+}
+
+.fs-0-8 {
+  font-size: 0.8rem;
+}
+
+.no-outline:focus {
+  background: none;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #162c39;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer */
+  color: #162c39;
+}
+
+::placeholder {
+  color: #162c39;
+}
+
+.form-control::placeholder {
+  color: #162c39;
+}
+
+.login-area-width {
+  width: 340px;
+}
+
+.mt-6 {
+  margin-top: 5rem !important;
+}
+
+.m-b-2 {
+  margin-bottom: 2rem !important;
+}
+
+.vh-120 {
+  height: 120vh !important;
+}
+
+.w-54 {
+  width: 54% !important;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
